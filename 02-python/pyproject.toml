@@ -1,0 +1,15 @@
+[project]
+name = "customs-data"
+version = "0.1.0"
+classifiers = ["Private :: Do Not Upload"]
+description = "Fetch customs data and export to CSV"
+authors = [{ name = "Max Kavaliou", email = "mkovaliou@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.32.5",
+    "tqdm>=4.67.1",
+]
+
+[project.scripts]
+customs-fetch = "customs_data.core:main"
