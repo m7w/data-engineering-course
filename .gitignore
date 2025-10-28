@@ -9,7 +9,11 @@ wheels/
 # Virtual environments
 .venv
 
+# logs and temp files
+**/*.log
+**/*.tmp
+
 # data files
-*.log
-*.csv
-*.txt
+**/*.csv
+**/*.txt
+**/*.TXT
