@@ -13,3 +13,6 @@ dependencies = [
 
 [project.scripts]
 customs-fetch = "customs_data.core:main"
+
+[tool.uv]
+package = true
