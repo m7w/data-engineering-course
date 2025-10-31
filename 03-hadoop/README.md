@@ -1,3 +1,9 @@
+## set environment variables and start dfs and yarn
+```sh
+. ./env.sh
+start-all.sh
+```
+
 ## STAGE 1
 ```sh
 yarn jar $HADOOP_STREAMING_JAR \
